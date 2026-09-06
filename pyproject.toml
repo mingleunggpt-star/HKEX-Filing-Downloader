@@ -1,0 +1,10 @@
+[project]
+name = "hkex-filing-downloader-v3"
+version = "3.0.0"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115",
+  "pydantic>=2.9",
+  "httpx[http2]>=0.28",
+  "vercel>=0.5"
+]
