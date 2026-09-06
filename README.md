@@ -1,8 +1,1 @@
-# HKEX Filing Downloader V3
-
-Static frontend (`index.html`) + FastAPI backend (`api/index.py`) + Vercel Blob.
-
-Test order:
-1. `/api/health`
-2. `/`
-3. stock `0066`
+Replace only api/index.py and vercel.json. Test /api/health -> 3.3, then /api, then /.
