@@ -1,3 +1,0 @@
-fastapi>=0.115
-pydantic>=2.9
-httpx[http2]>=0.28
