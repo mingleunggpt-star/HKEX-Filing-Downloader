@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
-from _hkex_search import search_filings
+from api._hkex_search import search_filings
 
 app = FastAPI(title="HKEX Filing Downloader v4")
 
