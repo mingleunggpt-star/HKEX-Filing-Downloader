@@ -7,7 +7,7 @@ app = FastAPI(title="HKEX Filing Downloader v4.2")
 
 # Replace this after deploying the Cloudflare Worker.
 # Example: https://hkex-pdf-proxy.your-subdomain.workers.dev
-WORKER_BASE_URL = "https://REPLACE-ME.workers.dev"
+WORKER_BASE_URL = "https://hkex-pdf-proxy.mingleunggpt.workers.dev"
 
 
 class SearchRequest(BaseModel):
